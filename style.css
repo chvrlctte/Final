@@ -91,9 +91,17 @@ button:hover {
     background-color: #00a8ff;
 }
 /* MAIN CONTENT */
+#main-content {
+    display: flex;
+    width: 70%;
+}
+
+main {
+    order: 2;
+}
 #figure-one {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     float: left;
 }
 
@@ -103,13 +111,18 @@ button:hover {
     float: right;
 }
 
+p {
+    display: flex;
+    flex-wrap: wrap;
+}
 /* MAIN */
 
 /* ASIDE */
 aside {
     float: left;
-    display: flex;
     flex-direction: column;
+    order: 1;
+    width: 30%
 }
 
 /* FOOTER */
