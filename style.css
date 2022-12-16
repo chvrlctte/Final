@@ -94,6 +94,8 @@ button:hover {
 #main-content {
     display: flex;
     width: 70%;
+    float: right;
+    padding: 1em;
 }
 
 main {
