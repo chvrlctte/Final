@@ -101,6 +101,7 @@ main {
     background-color: white;
     padding: 1em;
     width: 100%;
+    height: 50%;
 }
 #figure-one {
     width: 250px;
@@ -167,11 +168,12 @@ aside ul li:nth-child(odd) {
 }
 
 /* FOOTER */
- 
-#main-footer-content > address {
+footer {
     background-image: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+}
+#main-footer-content > address {
     color: #fff;
-    height: 200px;
+    height: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -181,9 +183,15 @@ footer > p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1em;
+    color: white;
 }
 
 #logo {
+    background-color: white;
+    border-radius: 1em;
+    transform: rotate(45deg);
+    width: 150px;
+    height: 150px;
+    display: flex;
     float: right;
 }
