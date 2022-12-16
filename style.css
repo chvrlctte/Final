@@ -159,11 +159,21 @@ aside ul li:nth-child(odd) {
 
 /* FOOTER */
  
-footer {
+#main-footer-content > address {
     background-image: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
     color: #fff;
-    height: 100px;
+    height: 200px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    padding: 1em;
+}
+footer > p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+#logo {
+    float: right;
 }
