@@ -10,7 +10,7 @@ nav {
     background-color: blue;
 }
 
-nav > ul {
+nav ul {
     display: flex;
     list-style: none;
     gap: 2em;
@@ -18,8 +18,8 @@ nav > ul {
     height: 64px;
 }
 
-nav > ul > a {
-    
+nav a {
+    text-decoration: none;
 }
 /* HEADER */
 
