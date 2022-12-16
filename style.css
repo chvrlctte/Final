@@ -122,7 +122,28 @@ aside {
     float: left;
     flex-direction: column;
     order: 1;
-    width: 30%
+    width: 65%;
+}
+aside strong {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+aside h2 {
+    font-size: 20px;
+    background-color: #0097e6;
+    border-radius: 0.2em;
+}
+
+aside ul li {
+    padding: 1em;
+}
+
+aside ul li:nth-child(even) {
+    background-color: #dddddd
+}
+
+aside ul li:nth-child(odd) {
+    background-color: white
 }
 
 /* FOOTER */
