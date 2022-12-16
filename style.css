@@ -1,0 +1,31 @@
+@import url(./reset.css);
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: blue;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    justify-content: center;
+}
+/* HEADER */
+
+
+/* MAIN CONTENT */
+
+
+/* MAIN */
+
+
+/* ASIDE */
+
+
+/* FOOTER */
