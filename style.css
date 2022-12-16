@@ -1,5 +1,7 @@
 @import url(./reset.css);
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 body {
     background-image: url(../images/background.jpg);
     background-repeat: repeat;
@@ -23,7 +25,11 @@ nav a {
     display: flex;
     align-items: center;
     height: 60px;
-    color: white
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    padding: 2em;
 }
 /* HEADER */
 
