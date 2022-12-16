@@ -1,0 +1,15 @@
+@media screen and (max-width: 560px) {
+    .content {
+        flex-direction: column;
+        gap: unset;
+        padding: 0;
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    main, aside {
+        width: 100%;
+    }
+}
