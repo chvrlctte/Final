@@ -39,7 +39,12 @@ nav a:hover {
     height: 25px;
 }
 /* HEADER */
-
+header {
+    background-image: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
 
 /* MAIN CONTENT */
 
