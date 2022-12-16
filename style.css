@@ -1,6 +1,6 @@
 @import url(./reset.css);
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap');
 
 body {
     background-image: url(../images/background.jpg);
@@ -46,6 +46,17 @@ header {
     height: 250px;
 }
 
+header h1 {
+    font-family: 'PT Serif', serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60px;
+    font-size: 24px;
+    color: white;
+    padding-top: 2em;
+}
 /* MAIN CONTENT */
 
 
