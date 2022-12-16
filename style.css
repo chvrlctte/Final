@@ -71,14 +71,19 @@ header h2 {
 }
 
 button {
-    background-color: #00a8ff;
+    background-color: #333;
     color: white;
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
-    border-radius: 0.5em;
+    border-radius: 0.2em;
     display: flex;
     margin: 0 auto;
     align-items: baseline;
+    padding: 1em;
+}
+
+button:hover {
+    background-color: #00a8ff;
 }
 /* MAIN CONTENT */
 
