@@ -53,9 +53,32 @@ header h1 {
     text-align: center;
     flex-direction: column;
     height: 60px;
+    font-size: 30px;
+    color: white;
+    padding-top: 2em;
+}
+
+header h2 {
+    font-family: 'PT Serif', serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60px;
     font-size: 24px;
     color: white;
     padding-top: 2em;
+}
+
+button {
+    background-color: #00a8ff;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 0.5em;
+    display: flex;
+    margin: 0 auto;
+    align-items: baseline;
 }
 /* MAIN CONTENT */
 
